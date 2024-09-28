@@ -10,10 +10,10 @@ This project aims to develop a convolutional neural network (CNN) for the multic
 The training process employed early stopping with a patience of 10 epochs. The graphs below illustrate how the EfficientNetB0 model, after hyperparameter tuning, offers a robust fit for the data.
 
 #### Training and Validation Loss Graph
-<img src="<img width="842" alt="image" src="https://github.com/user-attachments/assets/e6e29928-4ade-47fd-9927-092bf21042ae">" alt="Training and Validation Loss Graph" width="400">
+<img src="https://github.com/user-attachments/assets/e6e29928-4ade-47fd-9927-092bf21042ae" alt="Training and Validation Loss Graph" width="400">
 
 #### Training and Validation Accuracy Graph
-<img src="<img width="828" alt="image" src="https://github.com/user-attachments/assets/6bb90411-0976-4f28-b700-0511db32ecc6">" alt="Training and Validation Accuracy Graph" width="400">
+<img src="https://github.com/user-attachments/assets/6bb90411-0976-4f28-b700-0511db32ecc6" alt="Training and Validation Accuracy Graph" width="400">
 
 ## Classification Metrics
 The hyperparameter-tuned model achieved a remarkable 98% accuracy, accurately classifying all images of Betel Nut and Bitter Gourd. However, one Banana image was misclassified as Betel Nut, and two Blackberry images were incorrectly identified as Bitter Gourd. This outcome indicates that the EfficientNet backbone and the selected parameters were well-suited to tackle the complexities present in the image dataset.
@@ -21,7 +21,7 @@ The hyperparameter-tuned model achieved a remarkable 98% accuracy, accurately cl
 <img width="508" alt="image" src="https://github.com/user-attachments/assets/5457d84c-d067-4ac3-9ca9-58f26369dc54">
 
 ### Sample Evaluation
-A random sample of 40 images was evaluated, and the model successfully identified all images correctly.
+#### A random sample of 40 images was evaluated, and the model successfully identified all images correctly.
 <img width="184" alt="image" src="https://github.com/user-attachments/assets/25107754-0533-4eab-a16f-182e1b84c63e">
 <img width="189" alt="image" src="https://github.com/user-attachments/assets/9ff2e059-cee5-4bcc-8a06-fe7b82a78e08">
 <img width="187" alt="image" src="https://github.com/user-attachments/assets/8edbb721-50ee-4a98-8191-87fbd4e466a9">
